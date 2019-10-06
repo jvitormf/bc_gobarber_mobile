@@ -26,3 +26,5 @@ yarn add axios
 yarn add @react-native-community/async-storage
 
 yarn add date-fns@next
+
+yarn add react-navigation-stack

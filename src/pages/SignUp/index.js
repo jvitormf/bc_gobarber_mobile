@@ -46,7 +46,7 @@ export default function SignUp({navigation}) {
                         placeholder="Nome completo"
                         returnKeyType="next"
                         onSubmitEditing={() => emailRef.current.focus()}
-                        valeu={name}
+                        value={name}
                         onChangeText={setName}
                     />
 
@@ -58,7 +58,7 @@ export default function SignUp({navigation}) {
                         ref={emailRef}
                         returnKeyType="next"
                         onSubmitEditing={() => passwordRef.current.focus()}
-                        valeu={email}
+                        value={email}
                         onChangeText={setEmail}
                     />
 
@@ -69,7 +69,7 @@ export default function SignUp({navigation}) {
                         ref={passwordRef}
                         returnKeyType="send"
                         onSubmitEditing={handleSubmit}
-                        valeu={password}
+                        value={password}
                         onChangeText={setPassword}
                     />
 
